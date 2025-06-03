@@ -39,6 +39,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .navigation li a {
@@ -51,4 +52,16 @@ footer {
 .navigation li a:hover {
   background-color: #f48fb1;
   color: #fff;
+}
+
+.contacts a {
+  background-color: #7e57c2;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-flex;
+  padding: 25px;
+  border-radius: 500px;
+  color: #eeff41;
 }
