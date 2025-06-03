@@ -1,0 +1,26 @@
+.contacts a {
+  display: flex;
+  justify-content: center;
+  background-color: #7e57c2;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 500px;
+  color: #eeff41;
+}
+
+.contacts a:hover {
+  display: flex;
+  justify-content: center;
+  background-color: #7e57c2;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 25px;
+  border-radius: 500px;
+  color: #eeff41;
+  box-shadow: inset 5px 5px 40px #eeff41;
+}

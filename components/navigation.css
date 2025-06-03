@@ -1,0 +1,19 @@
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navigation li a {
+  background-color: #eeff41;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.navigation li a:hover {
+  background-color: #f48fb1;
+  color: #fff;
+}
