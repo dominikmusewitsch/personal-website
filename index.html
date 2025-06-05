@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="checkboard">
       <h1>Dominik Musewitsch</h1>
       <img
         src="https://dfocupmdlnlkc.cloudfront.net/public/7ef6a3fb-b99b-405b-b451-1f0733b1adde_160x160_jpg.webp"
         alt="Selfie of me"
+        class="pic"
       />
       <img
         src="https://media.licdn.com/dms/image/v2/C4E03AQFLt0C1G6flTQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632821196962?e=2147483647&v=beta&t=Pgeaj_QXZJH1lpnq_1k6363blVL0Z0OqWqNUc43tHxE"
         alt="Headshot of me"
+        class="pic"
       />
       <nav>
         <ul class="navigation">
@@ -26,13 +28,13 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="quote">
         <q
           >Programming isn't about what you know; it's about what you can figure
           out.</q
-        ><cite>Chris Pine</cite>
+        ><cite> Chris Pine</cite>
       </section>
-      <section id="about me">
+      <section class="about-me">
         <h2>about me</h2>
         <p>
           From sketchbook to source code – I’m a creative mind who took the
@@ -57,54 +59,46 @@
       </section>
       <section class="contacts">
         <h2>contacts</h2>
-        <a href="mailto:dmusewitsch@gmail.com">Email</a>
-        <a href="tel:+4915209154965">Phone</a>
-        <a href="https://www.instagram.com/dominik_demonic/">Instagram</a>
-        <a href="https://de.linkedin.com/in/dominik-musewitsch-0603b2188"
-          >LinkedIn</a
-        >
+        <div>
+          <a href="mailto:dmusewitsch@gmail.com">Email</a>
+          <a href="tel:+4915209154965">Phone</a>
+          <a href="https://www.instagram.com/dominik_demonic/">Instagram</a>
+          <a href="https://de.linkedin.com/in/dominik-musewitsch-0603b2188"
+            >LinkedIn</a
+          >
+        </div>
       </section>
       <section class="projects">
         <h2>projects</h2>
-        <div>
-          <a
-            href="https://www.kaltblut-magazine.com/cummi-by-dominik-musewitsch/"
-            >Graduation Collection</a
-          >
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIBllGUI5HO3erDCFNSLPH-aVAb8-XjwjAIg&s"
-            alt="Man posing in rubber wear"
-          />
-        </div>
-        <div>
-          <a
-            href="https://archiv.hkw.de/de/programm/projekte/veranstaltung/p_158899.php"
-            >Fashion Exhibition at Haus der Kulturen der Welt</a
-          >
-          <img
-            src="https://design.udk-berlin.de/wp-content/uploads/2019/12/C87A4650-300x450.jpg"
-            alt="woman posing surrounded by audience"
-          />
-        </div>
-        <div>
-          <a
-            href="https://www.crew-united.com/de/Tomorrow-TV-Webshow__309583.html"
-            >Tommorow TV (Webshow)</a
-          >
-          <img
-            src="https://www.crew-united.com/Media/Images/1661/1661635/1661635.entity.jpg"
-            alt="people having a chat"
-          />
-        </div>
-        <div>
-          <a
-            href="https://www.sleek-mag.com/article/ask-berlin-fashion-students/"
-            >Interview for SLEEK</a
-          >
-          <img
-            src="https://www.sleek-mag.com/wp-content/uploads/2019/08/DSC_2978-1024x683.jpg?v=1565106637"
-            alt="model behind the scenes"
-          />
+        <div class="cards">
+          <div class="cummi">
+            <a
+              class="card-title"
+              href="https://www.kaltblut-magazine.com/cummi-by-dominik-musewitsch/"
+              >Graduation Collection</a
+            >
+          </div>
+          <div class="hkw">
+            <a
+              class="card-title"
+              href="https://archiv.hkw.de/de/programm/projekte/veranstaltung/p_158899.php"
+              >Fashion Exhibition at Haus der Kulturen der Welt</a
+            >
+          </div>
+          <div class="tomorrow">
+            <a
+              class="card-title"
+              href="https://www.crew-united.com/de/Tomorrow-TV-Webshow__309583.html"
+              >Tommorow TV (Webshow)</a
+            >
+          </div>
+          <div class="sleek">
+            <a
+              class="card-title"
+              href="https://www.sleek-mag.com/article/ask-berlin-fashion-students/"
+              >Interview for SLEEK</a
+            >
+          </div>
         </div>
       </section>
     </main>

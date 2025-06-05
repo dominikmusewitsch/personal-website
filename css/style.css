@@ -1,7 +1,8 @@
 @import "../components/contacts.css";
 @import "../components/footer.css";
-@import "../components/navigation.css";
 @import "../components/projects.css";
+@import "../components/header.css";
+@import "../components/about.css";
 
 * {
   box-sizing: border-box;
@@ -22,4 +23,13 @@ h1 {
 
 body {
   background-color: rgb(167, 239, 248);
+}
+
+.quote {
+  padding: 20vh;
+  justify-self: center;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #ff5722;
+  font-style: italic;
 }

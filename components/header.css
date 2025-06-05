@@ -1,0 +1,28 @@
+.checkboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pic {
+  justify-self: center;
+  align-self: center;
+}
+
+.navigation {
+  list-style: "💕";
+  place-self: center;
+}
+
+.navigation li a {
+  background-color: #eeff41;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navigation li a:hover {
+  background-color: #f48fb1;
+  color: #fff;
+}

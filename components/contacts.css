@@ -1,6 +1,25 @@
+.contacts h2 {
+  background-color: #eeff41;
+  width: 100px;
+  margin: 100px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.contacts h2:hover {
+  background-color: black;
+  color: #eeff41;
+}
+
+.contacts div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  align-items: center;
+}
+
 .contacts a {
-  display: flex;
-  justify-content: center;
   background-color: #7e57c2;
   text-decoration: none;
   font-family: sans-serif;
